@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // ** 컴파일될 js 파일의 버전 설정
+    // ** ESNext는 최신 버전의 js를 의미
+    // ** 최신 js버전을 사용하지 못하는 경우가 있어서 
+    // ** 해당 옵션을 사용가능 해야함
+    "target": "ESNext", 
+
+    // ** 모듈 설정도 이하동문 낮은 버전으로 실행할 수도있음
+    "module": "ESNext",
+
+    // ** 컴파일된 파일의 위치 설정
+    "outDir": "dist",
+    
+    // ** 엄격한 타입 체크 설정
+    "strict": true,
+
+    // ** 모듈 해석 방식 설정
+    "moduleDetection": "force",
+
+    // ** 라이브러리 타입 체크 설정
+    "skipLibCheck": true
+  },
+  "include": ["src"] // ** 컴파일의 범위를 설정 
+  
+}
