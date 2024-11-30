@@ -3,7 +3,7 @@
 let num: number = 123;
 
 // ** string
-let str: string = "Hello World";
+let str: string = 'Hello World';
 
 // ** boolean
 let bool: boolean = true;
