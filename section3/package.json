@@ -1,0 +1,16 @@
+{
+  "name": "section3",
+  "version": "1.0.0",
+  "description": "타입스크립트는 집합이다, 동일한 특징들을 모아놓은 집합이다.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.10.1",
+    "undici-types": "^7.0.0"
+  }
+}

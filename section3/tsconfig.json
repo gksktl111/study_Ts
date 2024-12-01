@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force",
+
+    // * 오류원인은 @types 버전이 20 버전 이상으로 업데이트되면서 undici-types 모듈을 찾을 수 없다는 오류가 발생하고 있는 것으로 보인다.
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
