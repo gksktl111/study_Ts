@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+
+    //* include 에서 src를 관제중인데 원래는 ts 파일만 허용됨 아래 옵션은 js 파일도 허용한다는 옵션
+    "allowJs": true
+  },
+
+  "include": ["src"]
+}
