@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    // react 앱이 어디서든 잘 동작하도록 옵션의 호환성을 높임
+    "target": "ES5",
+    "module": "CommonJS",
+    "strict": true,
+    "allowJs": true,
+    // 디폴트로 내보내는 값이 없는 모듈도 값을 불러올수 있도록 허용하는 옵션
+    "esModuleInterop": true,
+    // jsx 파일을 허용
+    "jsx": "react-jsx"
+  },
+
+  "include": ["src"]
+}
